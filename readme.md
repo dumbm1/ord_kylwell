@@ -16,5 +16,3 @@
 * source path is used as a template
 * on top of the original path created new paths
 * the original path is deleted
-
-###Autor: (c)MaratShagiev m_js@bk.ru 29.08.2016
