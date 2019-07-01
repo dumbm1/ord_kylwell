@@ -1,7 +1,7 @@
 /**
  * ai_cs6+.jsx (c)MaratShagiev m_js@bk.ru 29.08.2016
  *
- * cutPathByCornerPoints_v2
+ * cutPathByCornerPoints_v2.0.1
  *
  * What's new:
  * * Added processing collections
@@ -26,7 +26,7 @@
 try {
   var collection = selection;
   executeMenuCommand ('deselectall');
-  recurs (cutByCornPnts, selection);
+  recurs (cutByCornPnts, collection);
 } catch (e) {
   alert ('Error: ' + e.message + '\rin line #' + e.line);
 }
